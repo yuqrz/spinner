@@ -47,4 +47,23 @@
         android:layout_marginTop="16dp"
         android:text="Rozmiar: -"
         android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Wybierz dodatki na pizze:"
+        android:textSize="18sp"/>
+    <Spinner
+        android:id="@+id/unitSpinnerr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minWidth="200dp"/>
+    <TextView
+        android:id="@+id/selectedUnitTextVieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dodatki: -"
+        android:textSize="16sp"/>
 </LinearLayout>

@@ -5,9 +5,17 @@
         <item>Średnia</item>
         <item>Duża</item>
     </string-array>
+
     <string-array name="rodzaj_ciasta">
         <item>Cienkie</item>
         <item>Klasyczne</item>
         <item>Pełnoziarniste</item>
+    </string-array>
+    <string-array name="dodatki_ma_pizze">
+        <item>Pepperoni</item>
+        <item>Ser</item>
+        <item>Pieczarki</item>
+        <item>Boczek</item>
+        <item>Jalapeno</item>
     </string-array>
 </resources>
