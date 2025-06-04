@@ -46,12 +46,25 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
                 selectedUnitTextView.setText("Rozmiar: -");
             }
 
+        });
+        unnitSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String selectedUnit = parent.getItemAtPosition(position).toString();
+                selectedUnnitTextView.setText("Rodzaj: " + selectedUnit);
+            }
+            public void onNothingSelected(AdapterView<?> parent) {
+                selectedUnnitTextView.setText("Rodzaj: -");
+            }
 
         });
+        }
     }
-}
