@@ -1,0 +1,13 @@
+<!-- res/values/arrays.xml -->
+<resources>
+    <string-array name="length_units_array">
+        <item>Mała</item>
+        <item>Średnia</item>
+        <item>Duża</item>
+    </string-array>
+    <string-array name="rodzaj_ciasta">
+        <item>Cienkie</item>
+        <item>Klasyczne</item>
+        <item>Skibidi</item>
+    </string-array>
+</resources>
